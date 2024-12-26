@@ -7,7 +7,7 @@ module "sandbox" {
     ManagedOrganizationalUnit = "Sandboxwork"
     SSOUserEmail              = "kaustuv.chatterjee+sandbox@gmail.com"
     SSOUserFirstName          = "Sandbox"
-    SSOUserLastName           = "AFT1"
+    SSOUserLastName           = "AFT"
   }
 
   account_tags = {
