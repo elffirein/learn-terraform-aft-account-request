@@ -2,10 +2,10 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "kaustuv.chatterjee+sandbox@gmail.com"
+    AccountEmail              = "kaustuv.chatterjee+sandboxwork@gmail.com"
     AccountName               = "sandboxwork-aft"
     ManagedOrganizationalUnit = "Sandboxwork"
-    SSOUserEmail              = "kaustuv.chatterjee+sandbox@gmail.com"
+    SSOUserEmail              = "kaustuv.chatterjee+sandboxwork@gmail.com"
     SSOUserFirstName          = "Sandboxwork"
     SSOUserLastName           = "AFT"
   }
@@ -23,5 +23,5 @@ module "sandbox" {
     group = "non-prod"
   }
 
-  account_customizations_name = "sandbox"
+  account_customizations_name = "sandboxwork"
 }
